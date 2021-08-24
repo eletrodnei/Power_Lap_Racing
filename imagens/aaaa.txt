@@ -1,0 +1,49 @@
+<code>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Desafio UA-1</title>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<h2>Classificação das cores</h2>
+		<ul>
+			<li>
+				<h3>Cores primárias</h3>
+				<ol>
+					<li>Vermelho</li>
+					<li>Azul</li>
+					<li>Amarelo</li>
+				</ol>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<h3>Cores secundárias</h3>
+				<ol>
+					<li>Verde</li>
+					<li>Laranja</li>
+					<li>Roxo</li>
+				</ol>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<h3>Cores terciárias</h3>
+				<ol>
+					<li>Laranja</li>
+					<li>Oliva</li>
+					<li>Turquesa</li>
+					<li>Celeste</li>
+					<li>Violeta</li>
+					<li>Rosa</li>
+				</ol>
+			</li>
+		</ul>
+
+	</body>
+</html>
+</code>

@@ -1,0 +1,6 @@
+#
+# This is a track sector file
+# it defines minisectors starting from start of
+# lap. The values are fractions of the lap,
+# 25% is 0.25
+0.0,0.134,0.203,0.336,0.387,0.421,0.481,0.573,0.650,0.736,0.859,0.912

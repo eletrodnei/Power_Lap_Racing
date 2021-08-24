@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!-- Screen size options -->
+<!-- Window height -->
+<entry key="frame_height">705</entry>
+<!-- Window width -->
+<entry key="frame_width">1366</entry>
+<!-- Window x position -->
+<entry key="frame_x_pos">1.0</entry>
+<!-- Window y position -->
+<entry key="frame_y_pos">1.0</entry>
+<!-- FX Frame State -->
+<entry key="fx_frame_state">NORMAL</entry>
+<!-- The active screen -->
+<entry key="fx_screen_id">0</entry>
+<!-- The active screen x pos -->
+<entry key="fx_screen_bound_x">1</entry>
+<!-- The active screen y pos -->
+<entry key="fx_screen_bound_y">1</entry>
+<!-- UDP traffic listening options -->
+<!-- listen IP -->
+<!-- DO NOT SET THIS IF YOU DON'T KNOW -->
+<!-- WHAT YOU ARE DOING! -->
+<entry key="in_ip"></entry>
+<!-- listen PORT -->
+<entry key="in_port">20777</entry>
+<!-- listen PORT ACC -->
+<entry key="in_port_acc">9996</entry>
+<!-- listen PORT AMS2-->
+<entry key="in_port_ams2">5606</entry>
+<!-- listen PORT DR2 -->
+<entry key="in_port_dr2">20777</entry>
+<!-- listen PORT F1 2013-->
+<entry key="in_port_f12013">20777</entry>
+<!-- listen PORT F1 2014-->
+<entry key="in_port_f12014">20777</entry>
+<!-- listen PORT F1 2015-->
+<entry key="in_port_f12015">20777</entry>
+<!-- listen PORT F1 2016-->
+<entry key="in_port_f12016">20777</entry>
+<!-- listen PORT F1 2017-->
+<entry key="in_port_f12017">20777</entry>
+<!-- listen PORT F1 2018-->
+<entry key="in_port_f12018">20777</entry>
+<!-- listen PORT F1 2019-->
+<entry key="in_port_f12019">20777</entry>
+<!-- listen PORT F1 2020-->
+<entry key="in_port_f12020">20777</entry>
+<!-- listen PORT PC2-->
+<entry key="in_port_pc2">5606</entry>
+<!-- Networking, use udp broadcast mode-->
+<!-- This is for testing, if it would work -->
+<entry key="enable_broadcast_for_listening">false</entry>
+<!-- UDP traffic redirect options -->
+<!-- UDP_1 redirect active -->
+<entry key="out_1">false</entry>
+<!-- UDP_1 redirect IP -->
+<entry key="out_1_ip">127.0.0.1</entry>
+<!-- UDP_1 redirect PORT -->
+<entry key="out_1_port">20776</entry>
+<!-- UDP traffic redirect 2 options -->
+<!-- UDP_2 redirect active -->
+<entry key="out_2">false</entry>
+<!-- UDP_2 redirect IP -->
+<entry key="out_2_ip">192.168.1.100</entry>
+<!-- UDP_2 redirect PORT -->
+<entry key="out_2_port">20777</entry>
+<!-- ACC - use data from broadcast feed -->
+<entry key="acc_broadcast_mode">true</entry>
+<!-- ACC Broadcast IP -->
+<entry key="acc_broadcast_ip">127.0.0.1</entry>
+<!-- ACC Broadcast PORT -->
+<entry key="acc_broadcast_port">9000</entry>
+<!-- ACC Broadcast password -->
+<entry key="acc_broadcast_password">12345</entry>
+<!-- ACC Broadcast command password -->
+<entry key="acc_broadcast_command_password">67890</entry>
+<!-- ACC Broadcast interval (in ms) -->
+<entry key="acc_broadcast_interval">100</entry>
+<!-- HTTP server options -->
+<!-- HTTP server enabled -->
+<entry key="http_server">false</entry>
+<!-- HTTP server port -->
+<entry key="http_server_port">8002</entry>
+<!-- Allow http connections only from localhost -->
+<entry key="http_only_local">true</entry>
+<!-- If true, save data files also in F1Perfview compatible mode -->
+<entry key="f1_perfview_output">false</entry>
+<!-- If true, in TelemetryPanel the brake temperature buttons are visible -->
+<entry key="show_brake_temp_buttons">true</entry>
+<!-- By default true, if set to false, automatic track detection is off  -->
+<entry key="automatic_track_detection">true</entry>
+<!-- By default true, if set to false, system will not save invalied laps  -->
+<entry key="save_invalid_laps">true</entry>
+<!-- By default true, if set to false, system will not track or save AI data  -->
+<entry key="track_and_save_ai_data">true</entry>
+<!-- By default true, if set to false, automatic event detection is off  -->
+<entry key="automatic_event_detection">true</entry>
+<!-- By default set to "Fastest", if set to "Session", by the default comparison is session times  -->
+<entry key="raceinfo_use_session_by_default">true</entry>
+<!-- By default set to LIVE_DATA, other options are FILE_DATA and PREV_LAP -->
+<entry key="telemetrypanel_red_line_default">LIVE_DATA</entry>
+<!-- By default set to FASTEST_LAP, other options are SESSION_FASTEST, REFERENCE, NONE  -->
+<entry key="telemetrypanel_blue_line_default">FASTEST</entry>
+<!-- TelemetryPane V2 additions  -->
+<entry key="telemetrypane_auto_zoom">true</entry>
+<entry key="telemetrypane_fill_diff_lines">true</entry>
+<entry key="telemetrypane_cursordata_position">BOTTOM</entry>
+<!-- Data saving options -->
+<!-- Save previous laptimes, when changing circuit -->
+<entry key="save_lap_times_into_file">false</entry>
+<!-- Save previous race history, when changing circuit -->
+<entry key="save_race_history_to_file">false</entry>
+<!-- Save file containing just the line driven -->
+<entry key="save_track_files">false</entry>
+<!-- Removes the menu bar -->
+<entry key="show_menu">true</entry>
+<!-- Removes the side bar -->
+<entry key="show_sidebar">true</entry>
+<!-- Side bar on right -->
+<entry key="sidebar_on_right">true</entry>
+<!-- Last active view -->
+<entry key="last_active_view">RACE_TIMING</entry>
+<!-- Logs java exceptions to errors.log -->
+<entry key="file_logging">false</entry>
+<!-- Automatically save settings -->
+<entry key="auto_save_settings">true</entry>
+<!-- Controlle button to change tab -->
+<entry key="tab_change_button">NONE</entry>
+<!-- Controller button in PC2 to change tab -->
+<entry key="tab_change_button_pc2">BUTTON_NONE</entry>
+<!-- Action in ACC to change tab -->
+<entry key="tab_change_action_acc">TC_DOWN</entry>
+<!-- if you want the application to use its own icon -->
+<entry key="load_icon">true</entry>
+<!-- Which id to show, options NONE, TLA, NAME, NAME_AND_SPEED -->
+<entry key="map_id_shown">NAME_AND_RACE_INFO</entry>
+<!-- if others cars are shown in map -->
+<entry key="map_show_other_cars">true</entry>
+<!-- if map is filled -->
+<entry key="map_fill">true</entry>
+<!-- if sectors are shown in map -->
+<entry key="map_show_sectors">true</entry>
+<!-- if selection cursors are shown in map -->
+<entry key="map_show_cursors">true</entry>
+<!-- to show turn number in the map -->
+<entry key="map_show_turn_numbers">true</entry>
+<!-- if driven line (all laps) is shown in map -->
+<entry key="map_show_driven_line">false</entry>
+<!-- if optimal line is shown in map -->
+<entry key="map_show_optimal_line">true</entry>
+<!-- if blue line is shown in map  -->
+<entry key="map_show_blue_line">false</entry>
+<!-- if minisectors are shown in map -->
+<entry key="map_show_minisectors">false</entry>
+<!-- if pit window box is shown in map  -->
+<entry key="map_pit_box_visible">true</entry>
+<!-- if red line is shown in map  -->
+<entry key="map_show_red_line">false</entry>
+<!-- if multilap lines are shown in map  -->
+<entry key="map_show_multilap">false</entry>
+<!-- which graph coloring option to use  -->
+<entry key="graph_coloring_option">COLORED_RED_ONLY</entry>
+<entry key="raceinfo_display_order">LAP_FIRST_THEN_SECTOR</entry>
+<!-- if we show extra data on race timing  -->
+<entry key="racetimine_show_extra">false</entry>
+<!-- race timing sort order -->
+<entry key="racetiming_sort_order">BEST_LAP</entry>
+<entry key="racetiming_delta_to_leader">true</entry>
+<entry key="racetiming_show_telemetry">true</entry>
+<entry key="timetrial_display_order">LAP_FIRST_THEN_SECTOR</entry>
+<entry key="timetrial_show_estimate">true</entry>
+<entry key="timetrial_autoscroll">true</entry>
+<!-- the default graph for race history  -->
+<entry key="racehistory_default_graph">RACE_HISTORY</entry>
+<!-- show legend in race history  -->
+<entry key="racehistory_show_legend">true</entry>
+<!-- show legend at bottom in race history -->
+<entry key="racehistory_legend_at_bottom">true</entry>
+<!-- show grid in race history  -->
+<entry key="racehistory_show_grid">true</entry>
+<!-- if we show fuel data on opponent stats  -->
+<entry key="op_sta_show_fuel">true</entry>
+<!-- if we show ERS data on opponent stats  -->
+<entry key="op_sta_show_ers">true</entry>
+<!-- if we show GForce data on opponent stats  -->
+<entry key="op_sta_show_g">true</entry>
+<!-- if we show tyres data on opponent stats  -->
+<entry key="op_sta_show_tyres">true</entry>
+<!-- sort order for the data on opponent stats  -->
+<entry key="op_sta_sort_order">GAME_DATA</entry>
+<!-- Multilap panel settings  -->
+<entry key="multilap_live_data">true</entry>
+<entry key="multilap_update_map">true</entry>
+<entry key="multilap_auto_zoom">true</entry>
+<entry key="multilap_pitlap_visible">false</entry>
+<entry key="multilap_fill_diff_lines">true</entry>
+<entry key="multilap_show_cursor_data">true</entry>
+<entry key="multilap_same_color">false</entry>
+<entry key="multilap_line_color">FF0000</entry>
+<entry key="multilap_cursor_on_left">true</entry>
+<entry key="multilap_show_blue_lap">true</entry>
+<!-- Driver DNA settings  -->
+<entry key="driverdna_blue_on_top">true</entry>
+<entry key="driverdna_show_pitlaps">false</entry>
+<entry key="driverdna_show_date">false</entry>
+<entry key="driverdna_reset_zoom_on_load">true</entry>
+<entry key="driverdna_laps_to_show">5</entry>
+<entry key="driverdna_sort_mode">LATEST_LAPS</entry>
+<entry key="driverdna_coloring">SPEED</entry>
+<!-- Local data settings  -->
+<entry key="sqlitepane_group_by_car">false</entry>
+<entry key="sqlitepane_include_first_lap">true</entry>
+<entry key="sqlitepane_include_pitlap">true</entry>
+<!-- use fahrenheits in the UI  -->
+<entry key="use_fahrenheit">false</entry>
+<!-- use MPHs in the UI  -->
+<entry key="use_mph">false</entry>
+<!-- which data feed type to tool uses: F12017, F12018, F12019, F12020, PC2 -->
+<!-- F12017, F12018, F12019, F12020, PC2, ACC, DR2 -->
+<entry key="game_feed">FEED_F12020</entry>
+<!-- Player TLA (three letter actronym) -->
+<entry key="player_tla">---</entry>
+<!-- Do we write lap data to files -->
+<entry key="writeLapsToFile">true</entry>
+<!-- If save memory, how many laps are kept in memory -->
+<entry key="max_laps_in_memory">6</entry>
+<!-- Width of the graph line in Telemetry -->
+<entry key="telemetry_graph_line_width">0.95</entry>
+<!-- Which opponent laps to save -->
+<entry key="opponent_laps_to_save">NONE</entry>
+<!-- sets the fx ui raw data pane font size -->
+<entry key="fx_raw_data_font_size">12</entry>
+<!-- sets the fx ui raw ai data pane font size -->
+<entry key="fx_raw_ai_data_font_size">10</entry>
+<!-- sets the fx statistics pane font size -->
+<entry key="fx_statistics_font_size">16</entry>
+<!-- sets the fx ui opponent stats pane font size -->
+<entry key="fx_opponent_stats_font_size">16</entry>
+<!-- sets the fx ui raw base data pane font size -->
+<entry key="fx_raw_base_font_size">16</entry>
+<!-- sets the time trial info pane font size -->
+<entry key="tt_info_pane_font_size">20</entry>
+<!-- this settings would remove laps from memory agressively -->
+<!-- at the moment this is just placeholder -->
+<entry key="save_memory">true</entry>
+<!-- how much cpu the system uses, low value means less sleep for system -->
+<entry key="cpu_use">33.0</entry>
+<!-- do we let the tool change CPU use target -->
+<entry key="allow_cpu_use_change">true</entry>
+<!-- distance in meters between timing points for delta -->
+<entry key="timing_point_distance">100</entry>
+<!-- default time spent in pitstop -->
+<entry key="pitstop_treshold">25</entry>
+<!-- lap time difference visualized in Race Info -->
+<entry key="info_lap_time_treshold">20</entry>
+<!-- sector time difference visualized in Race Info -->
+<entry key="info_sector_time_treshold">8</entry>
+<!-- default tyre deg target -->
+<entry key="info_tyre_deg_target">20</entry>
+<!-- if true, graphs are loaded only when needed -->
+<entry key="optimize_graph_loading">true</entry>
+<!-- if true, graphs for long tracks use less data points (i.e. less memory) -->
+<entry key="optimize_graph_drawing">true</entry>
+<!-- steps to skip when drawing the graphs, more skips, less memory used -->
+<entry key="graph_skip_steps">3</entry>
+<!-- steps to skip when drawing the maps, more skips, less memory used -->
+<entry key="map_skip_steps">1</entry>
+<!-- show min max in Telemetry -->
+<entry key="show_min_max_in_telemetry">false</entry>
+<!-- show min max only for red in Telemetry -->
+<entry key="only_red_min_max_in_telemetry">true</entry>
+<!-- use minisectors in Telemetry (default is 200 meter lines) -->
+<entry key="telemetry_use_minisectors">true</entry>
+<entry key="telemetry_vertical_lines">MINISECTORS</entry>
+<!-- play DRS sound, uses drs.wav from JAR's directory -->
+<entry key="play_drs_sound">false</entry>
+<!-- keep Telemetry graph in controller toggle -->
+<entry key="telemetry_in_toggle">true</entry>
+<!-- keep Multi Telemetry graph in controller toggle -->
+<entry key="multilap_telemetry_in_toggle">true</entry>
+<!-- this settings makes the system show extra -->
+<!-- tab with the raw data from system -->
+<!-- show raw data -->
+<entry key="show_raw_data">false</entry>
+<!-- this settings makes the system show extra -->
+<!-- tab with raw base data from system -->
+<entry key="show_raw_base_data_pane">false</entry>
+<!-- this settings makes the system show extra -->
+<!-- tab with time trial info from system -->
+<entry key="show_tt_info_pane">true</entry>
+<!-- this settings makes the system show extra -->
+<!-- tab with the direction data from system -->
+<!-- show direction data tab -->
+<entry key="show_direction_panel">false</entry>
+<!-- this settings makes the system show extra -->
+<!-- tab with raw AI cars data from system -->
+<!-- show raw AI data tab -->
+<entry key="show_raw_ai_data">false</entry>
+<!-- this settings makes the system show extra -->
+<!-- tab with the driving data from system -->
+<!-- show driving info tab -->
+<entry key="show_driving_info_panel">true</entry>
+<!-- this settings makes the system show extra -->
+<!-- tab with the driver DNA from system -->
+<!-- show driver DNA tab -->
+<entry key="show_driving_dna_panel">false</entry>
+<!-- this settings makes the system show extra -->
+<!-- tab with the lap comparison data from system -->
+<!-- show lap comparison tab -->
+<entry key="show_lap_comparison_panel">false</entry>
+<!-- opponent stats panel included into toggle -->
+<entry key="show_opponent_stats_panel">true</entry>
+<!-- this settings makes the system show extra -->
+<!-- tab with statistics data from system -->
+<!-- show statistics tab -->
+<entry key="show_statistics_panel">true</entry>
+<!-- this settings makes the system show extra -->
+<!-- tab with graphs from system -->
+<!-- show graphs tab -->
+<entry key="show_graphs_panel">true</entry>
+<!-- this settings makes the system show extra -->
+<!-- tab with the map from system -->
+<!-- show map tab -->
+<entry key="show_map_panel">true</entry>
+<!-- this settings makes the system show extra -->
+<!-- tab with the race history from system -->
+<!-- show race history tab -->
+<entry key="show_race_history_panel">true</entry>
+<!-- this settings makes the system show extra -->
+<!-- tab with the race info from system -->
+<!-- show race info tab -->
+<entry key="show_race_info_panel">true</entry>
+<!-- this settings makes the system show extra -->
+<!-- tab with the race timing from system -->
+<!-- show race timing tab -->
+<entry key="show_race_timing_panel">true</entry>
+<!-- this settings makes the system to -->
+<!-- use alternative colors in tabs -->
+<entry key="use_alternative_colors">false</entry>
+<!-- this settings makes the map panel -->
+<!-- to fill/not fill the track boundaries -->
+<entry key="fill_boundaries_in_map_panel">true</entry>
+<!-- This settings enables alternative colors in the Telemetry Panel -->
+<entry key="alternative_colors_in_telemetry_panel">false</entry>
+<!-- New map windows position and size -->
+<!-- New lap comparison data windows position and size -->
+<!-- New raw data window position and size -->
+<!-- New raw base data window position and size -->
+<!-- New race timing windows position and size -->
+<!-- New opponent stats windows position and size -->
+<!-- New race windows position and size -->
+<!-- New time trial window's position and size -->
+<!-- New race history window position and size -->
+<!-- New driving windows position and size -->
+<!-- New driver DNA windows position and size -->
+<!-- New Statistics windows position and size -->
+<!-- New Multilap Telemetry windows position and size -->
+<!-- New plain graph windows position and size -->
+</properties>

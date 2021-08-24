@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+    <!--
+Copyright Iko Rein, 2013, 2017
+    -->
+    <head>
+        <title>Example Telemetry data for user defined output</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <style>
+
+            * { 
+                margin: 0; padding: 0; 
+                /*	border-style: 1px solid #000;*/
+            }
+
+            /* To make older browsers behave nicely */
+            article, aside, figure, footer, header, hgroup,
+            menu, nav, section { display: block; }
+
+            body {
+                font-family: arial, verdana;
+            }
+        </style>
+        <script>
+            var jsonObjectCurrentStatus;
+
+            function getCurrentStatus()
+            {
+                var xmlhttp;
+                if (window.XMLHttpRequest)
+                {// code for IE7+, Firefox, Chrome, Opera, Safari
+                    xmlhttp = new XMLHttpRequest();
+                }
+                else
+                {// code for IE6, IE5
+                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                xmlhttp.onreadystatechange = function()
+                {
+                    if (xmlhttp.readyState === 4 && xmlhttp.status === 200)
+                    {
+                        //retrieve result as an JavaScript object
+                        jsonObjectCurrentStatus = eval("(" + xmlhttp.responseText + ")");
+                        //alert(xmlhttp.responseText);
+                        document.getElementById("status").innerHTML = jsonObjectCurrentStatus.lapstatus;
+                    }
+                };
+                xmlhttp.open("GET", "/JSON/lapstatus", true);
+                xmlhttp.send();
+            }
+            ;
+
+        </script>
+    </head>
+    <body onload="getCurrentStatus();">
+        <p>This comes from the system</p>
+        <div id="status"></div>
+        <p>Here are the currently available JSON urls</p>
+        <ul>
+			<li><a href="/JSON/aidata">AI Data</a></li>
+            <li><a href="/JSON/controls">Controls</a></li>
+            <li><a href="/JSON/currentPacket">Current Packet</a></li>
+            <li><a href="/JSON/currentPosition">Current position</a></li>
+            <li><a href="/JSON/events">Events</a></li>
+            <li><a href="/JSON/lapstatus">Lap status</a></li>
+            <li><a href="/JSON/laptimes">Laptimes</a></li>
+			<li><a href="/JSON/sectortime">Sector times</a></li>
+            <li><a href="/JSON/sessionbest">Session best times</a></li>
+            <li><a href="/JSON/speeddiff">Speed difference</a></li>
+            <li><a href="/JSON/teams">Teams</a></li>
+			<li><a href="/JSON/telemetrypacket">Telemetry packet</a></li>
+            <li><a href="/JSON/time">Current laptime</a></li>
+            <li><a href="/JSON/timediff">Time difference</a></li>
+            <li><a href="/JSON/track">Track data</a></li>
+            <li><a href="/JSON/tracks">Tracks</a></li>
+            <li><a href="/JSON/weathertype">Weather type</a></li>
+            <li><a href="/JSON/wheels">Wheel stats</a></li>            
+        </ul>
+    </body>
+</html>

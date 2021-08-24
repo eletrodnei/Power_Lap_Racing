@@ -1,0 +1,236 @@
+## Thanks to the guys at 
+## https://www.gtplanet.net/forum/threads/dirt-rally-2-0-locations.384999/
+## for the list of stages
+# Format of this file 
+# id,length,"location","stage",lengh_in_game_in_km
+# Max 4 fractions for length!! 
+#
+###############################################
+### Rallycross locations:
+0,1000,"Country","Stage"
+1,1119.359,"Catalunya","Barcelona",
+2,1026.7590,"Portugal","Montalegre"
+3,1075.0990,"Belgium","Mettet"
+4,1064.9800,"France","Loheac"
+5,1400.077,"Canada","Trois-Rivieres"
+6,1036.0970,"Norway","Hell"
+7,1207.188,"Sweden","Holjes"
+8,991.116,"Britain","Silverstone"
+### Rally locations:
+######################################
+## Argentina",",Catamarca:
+9,8256.8603,"Argentina","Las Juntas",8.25km
+10,7667.3198,"Argentina","Valle de los puentes",7.98km
+11,5303.7900,"Argentina","Camino de acantilados y rocas",5.30km
+12,4171.5000,"Argentina","San Isidro",4.48km
+13,3353.040,"Argentina","Miraflores",3.35km
+14,2845.6298,"Argentina","El Rodeo",2.84 km
+# Reverse:
+15,8265.9501,"Argentina","Camino a La Puerta",8.25km
+16,7929.1899,"Argentina","Valle de los puentes a la inversa",7.98km
+17,5294.8198,"Argentina","Camino de acantilados y rocas inverso",5.30km
+18,4082.2998,"Argentina","Camino a Coneta",4.48km
+19,3494.0100,"Argentina","Huillaprima",3.35km
+20,2779.4899,"Argentina","La Merced",2.84km
+######################################
+## Australia",",Monaro:
+21,13304.1201,"Australia","Mount Kaye Pass",12.50km
+22,12341.2500,"Australia","Chandlers Creek",12.34km
+23,7052.2998,"Australia","Bondi Forest",7.01km
+24,6951.1596,"Australia","Rockton Plains",6.89km
+25,6398.9096,"Australia","Yambulla Mountain Ascent",6.64km
+26,5277.0297,"Australia","Noorinbee Ridge Ascent",5.28km
+# Reverse:
+27,13301.1093,"Australia","Mount Kaye Pass Reverse",12.50km
+28,12305.0400,"Australia","Chandlers Creek Reverse",12.34km
+29,7007.0200,"Australia","Taylor Farm Sprint",7.01km
+30,7116.1499,"Australia","Rockton Plains Reverse",6.89km
+31,6221.4902,"Australia","Yambulla Mountain Descent",6.64km
+32,5236.9101,"Australia","Noorinbee Ridge Descent",5.28km
+######################################
+## New Zealand",",Hawkes Bay:
+33,16057.8505,"New Zealand","Waimarama Point Forward",16.06km
+34,11507.4404,"New Zealand","Te Awanga Forward",11.48km
+35,8807.4902,"New Zealand","Waimarama Sprint Forward",8.81km
+36,7137.8100,"New Zealand","Elsthorpe Sprint Forward",7.32km
+37,6624.0302,"New Zealand","Ocean Beach Sprint",6.61km
+38,4799.8403,"New Zealand","Te Awanga Sprint Forward",4.79km
+# Reverse:
+39,15844.5292,"New Zealand","Waimarama Point Reverse",16.06km
+40,11437.0703,"New Zealand","Ocean Beach",11.48km
+41,8733.9804,"New Zealand","Waimarama Sprint Reverse",8.81km
+42,6643.4902,"New Zealand","Elsthorpe Sprint Reverse",7.32km
+43,6584.1000,"New Zealand","Ocean Beach Sprint Reverse",6.61km
+44,4688.5297,"New Zealand","Te Awanga Sprint Reverse",4.79km
+######################################
+## Spain",",Ribadelles:
+45,14348.3603,"Spain","Comienzo en Bellriu",14.34km
+46,10568.4296,"Spain","Centenera",10.57km
+47,7005.6899,"Spain","Ascenso por valle el Gualet",7.00km
+48,6815.4501,"Spain","Vinedos dentro del valle Parra",6.81km
+49,6547.3999,"Spain","Vinedos Dardenya",6.55km
+50,4562.8002,"Spain","Descento por carretera",4.58km
+# Reverse:
+51,13164.3300,"Spain","Final en Bellriu",14.34km
+52,10584.6796,"Spain","Camino a Centenera",10.57km
+53,6143.5703,"Spain","Salida desde Montverd",7.00km
+54,7297.2700,"Spain","Ascenso bosque Montevard",6.81km
+55,6194.7099,"Spain","Vinedos Dardenya inversa",6.55km
+56,4380.7402,"Spain","Subida por Carretera",4.58km
+######################################
+## USA",",New England:
+57,12856.6601,"New England","Beaver Creek Trailer Forward",12.86km
+58,12228.8300,"New England","North Fork Pass",12.50km
+59,6701.6196,"New England","Hancock Creek Burst",6.89km
+60,6468.2998,"New England","Fuller Mountain Ascent",6.64km
+61,6575.8700,"New England","Tolt Valley Sprint Forward",6.10km
+62,6229.1098,"New England","Hancock Hill Sprint Forward",6.01km
+# Reverse:
+63,12765.9199,"New England","Beaver Creek Trail Reverse",12.86km
+64,12276.1201,"New England","North Fork Pass Reverse",12.50km
+65,6681.6098,"New England","Fury Lake Depart",6.89km
+66,6488.3300,"New England","Fuller Mountain Descent",6.64km
+67,6604.0302,"New England","Tolt Valley Sprint Reverse",6.10km
+68,6109.5400,"New England","Hancock Hill Sprint Reverse",6.01km
+######################################
+## Poland",",Leczna County:
+69,16475.0097,"Poland","Zarobka",16.46km
+70,13180.3798,"Poland","Zienki",13.42km
+71,9254.9003,"Poland","Marynka",9.25km
+72,7840.1796,"Poland","Kopina",7.03km
+73,6698.8100,"Poland","Lejno",6.72km
+74,6622.0800,"Poland","Czarny Las",6.62km
+# Reverse:
+75,16615.0000,"Poland","Zagorze",16.46km
+76,13295.6796,"Poland","Jezioro Rotcze",13.42km
+77,9194.3203,"Poland","Borysik",9.25km
+78,8159.8198,"Poland","Jozefin",7.03km
+79,6655.5400,"Poland","Jagodno",6.82km
+80,6437.8002,"Poland","Jezioro Lukie",6.62km
+### DLC:
+### Season 1:
+######################################
+## Monaco",",Monte Carlo:
+81,10866.8603,"Monte Carlo","Vallee Descendante",10.6km
+82,9831.4501,"Monte Carlo","Pra d'Alart",9.8km
+83,6846.8300,"Monte Carlo","Col de Turini - Depart en descente",6.8km
+84,4015.3598,"Monte Carlo","Route de Turini Decente",4.2km
+85,5175.9101,"Monte Carlo","Gordolon - Courte Montee",5.1km
+86,4729.5400,"Monte Carlo","Col de Turini - Sprint en montee",4.0km
+# Reverse
+87,10805.2207,"Monte Carlo","Route de Turini",10.8km
+88,9832.0205,"Monte Carlo","Col de Turini Depart",9.8km
+89,3952.1501,"Monte Carlo","Approache du Col de Turini Montee",3.9km
+90,6843.3203,"Monte Carlo","Route de Turini Montee",6.8km
+91,4730.0200,"Monte Carlo","Col de Turini - Sprint en descente",4.7km
+92,5175.9191,"Monte Carlo","Col de Turini - Descente",5.2km
+######################################
+## Sweden",",Varmland
+93,11922.620,"Sweden","Ransbysater",11.9km
+94,12123.74,"Sweden","Hamra",12.1km
+95,5248.360,"Sweden","Algsjon Sprint",5.2km
+96,6666.890,"Sweden","Stor-Jangen Sprint",6.6km
+97,7058.480,"Sweden","Elgsjon",7km
+98,4911.680,"Sweden","Ostra Hinnsjon",4.9km
+# Reverse
+99,11503.490,"Sweden","Norraskoga",11.9km
+100,12123.591,"Sweden","Lysvik",12.1km
+101,6693.440,"Sweden","Stor-Jangen sprint reverse",6.6km
+102,4804.0303,"Sweden","Skogsrallyt",4.8km
+103,4931.990,"Sweden","Bjorklangen",4.9km
+104,7055.950,"Sweden","Algsjon",7km
+######################################
+## Germany",",Baumholder
+105,11487.189,"Germany","Oberstein",11.6km
+106,10805.23,"Germany","Hammerstein",10.8km
+107,5361.9097,"Germany","Waldaufsteig",5.3km
+108,6121.87,"Germany","Kreuzungsring",6.3km
+109,5855.6797,"Germany","Verbundsring",5.8km
+110,5129.04,"Germany","Innerer Feld-Sprint",4.9km
+# Reverse
+111,11551.16,"Germany","Frauenberg",11.6km
+112,10699.96,"Germany","Ruschberg",10.7km
+113,5666.25,"Germany","Kreuzungsring reverse",5.6km
+114,5882.1797,"Germany","Waldabstieg",6.0km
+115,4937.85,"Germany","Innerer Feld-Sprint umgekehrt",5.1km
+116,5550.85,"Germany","Verbundsring reverse",5.5km
+### DLC:
+### Season 2:
+######################################
+# Latvia RX
+117,1287.433,"Latvia","Bikernieki",1.3km
+######################################
+## Wales
+118,9911.66,"Wales","Sweet Lamb",9.90km
+119,10063.601,"Wales","Geufron Forest",10.0km
+120,4788.67,"Wales","Pant Mawr", 4.70km
+121,5165.9604,"Wales","Bidno Moorland Reverse",4.80km
+122,4960.06,"Wales","Bidno Moorland",4.90km
+123,4821.65,"Wales","Pant Mawr Reverse",5.1km
+# And here
+124,11435.511,"Wales","River Severn Valley",11.40km
+125,11435.54,"Wales","Bronfelen",11.40km
+126,5717.400,"Wales","Fferm Wynt",5.70km
+127,5718.10,"Wales","Dyffryn Afon Reverse",5.70km
+128,5718.0996,"Wales","Dyffryn Afon",5.70km
+129,5717.3896,"Wales","Fferm Wynt Reverse",5.70km
+### DLC:
+### Season 3:
+######################################
+# Germany RX
+130,951.5123,"Germany","Estering",0.95km
+######################################
+## Greece,Argos
+131,9666.5,"Greece","Anodou Formakas",9.5km
+132,9665.99,"Greece","Kathodo Leontiou",9.6km
+133,5086.83,"Greece","Pomona Ekrixi",5.1km
+134,4515.4,"Greece","Fourketa kourva",4.8km
+135,4582.01,"Greece","Kosyfi Dafni",4.5km
+136,4860.1904,"Greece","Ampelona Ormi",4.5km
+######
+137,10487.061,"Greece","Perasma Platani",10.69km
+138,10357.88,"Greece","Tsiristsa Thea",10.36km
+139,5739.0996,"Greece","Ourea Speusi",5.74km
+140,6595.31,"Greece","Pedines Epidaxi",5.38km
+141,6888.4,"Greece","Abies Koilada",7.0km
+142,5383.01,"Greece",Ypsona tou Dasos",6.59km
+######################################
+# Abu Dhabi RX
+143,1194.23,"Abu Dhabi","Yas Marina Circuit",1.2km
+######################################
+## Finland
+### DLC:
+144,14929.8,"Finland","Kontinjarvi",15.05km
+145,14866.09,"Finland","Hamelahti",14.96km
+146,7515.4097,"Finland","Kailajarvi",7.51km
+147,7461.6597,"Finland","Paskuri",7.34km
+148,7340.38,"Finland","Jyskyjarvi",7.55km
+149,7310.54,"Finland","Naarajarvi",7.43km
+##
+150,16205.19,"Finland","Kakaristo",16.20km
+151,16205.26,"Finland","Pitkajarvi",16.20km
+152,8042.5205,"Finland","Iso Oksajarvi",8.04km
+153,8057.53,"Finland","Oksala",8.10km
+154,8147.42,"Finland","Jarvenkyla",8.05km
+155,8147.5605,"Finland","Kotajarvi",8.10km
+### Season 4:
+156,1064.623,"South Africa","Killarney",1.06km
+157,1348.854,"Britain","Lydden Hill",1.40km
+### Flat out pack
+#######################################
+# Perth and Kinross, Scotland
+158,12583.410,"Scotland","South Morningside",12.58km
+159,12670.590,"Scotland","South Morningside Reverse",12.66km
+160,5822.770,"Scotland","Old Butterstone Muir",5.82km
+161,5659.8203,"Scotland","Old Butterstone Muir Reverse",5.66km
+162,7144.6997,"Scotland","Rosebank Farm",7.16km
+163,6967.900,"Scotland","Rosebank Farm Reverse",6.96km
+164,12857.070,"Scotland","Newhouse Bridge",12.86km
+165,12969.211,"Scotland","Newhouse Bridge Reverse",12.98km
+166,5245.450,"Scotland","Glencastle Farm",5.25km
+167,5238.440,"Scotland","Glencastle Farm Reverse",5.24km
+168,7703.720,"Scotland","Annbank Station",7.77km
+169,7587.640,"Scotland","Annbank Station Reverse",7.59km
+#######################################
+# Free roam
+200,3601.23,"USA","Dirt Fish",3.6km

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<!-- Setting for save file locations -->
+<!-- This file is only read from, never written to -->
+<!-- Options are: -->
+<!-- jarLocation -->
+<!-- userDir -->
+<!-- path!<full path to location> -->
+<entry key="dataDir">jarLocation</entry>
+<!-- Settings for different level of logging data -->
+<!-- SEVERE -->
+<!-- WARNING -->
+<!-- INFO -->
+<!-- OFF -->
+<!-- ALL -->
+<entry key="loggingLevel">OFF</entry>
+<!-- Turns on the saving of the UDP feed -->
+<!-- into debug_file.csv file -->
+<entry key="writeServerDebug">false</entry>
+</properties>

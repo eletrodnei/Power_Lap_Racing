@@ -1,0 +1,7 @@
+#
+# This is a track sector file
+# it defines minisectors starting from start of
+# lap. The values are fractions of the lap,
+# 25% of lap is 0.25
+# Maximum number of allowed sectors is 21 
+0.0,0.079,0.154,0.201,0.249,0.361,0.418,0.466,0.536,0.597,0.645,0.706,0.771,0.850,0.898

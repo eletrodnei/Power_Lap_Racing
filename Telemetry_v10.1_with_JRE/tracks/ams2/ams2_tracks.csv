@@ -1,0 +1,100 @@
+###################################################
+## File containing the tracks for AMS2
+## This file gets read by the tool at the start and 
+## gets updated if there is an unknown track.
+##
+## IF you edit this file, be careful
+##
+## For your personal use, you could update the pitstop values
+## Also for personal use, adjust the typical fast lap 
+## (this is used to estimate laps in timed race ...)
+##
+## Comment/Info line start with ##
+## 
+## FORMAT IS
+## id, length, ui name, location, variation, alt_location, alt_variation, pistoplen, typicalfastlap
+## 
+###################################################
+1,3228.1985,"Adelaide Modern","Adelaide","Modern","Adelaide","Modern",30.0,60.0
+2,3760.666,"Adelaide Historic","Adelaide","Historic","Adelaide","Historic",30.0,80.0
+3,3326.9785,"Azure Circuit","Azure_Circuit","Azure_Circuit","Azure_Circuit","Azure_Circuit",30.0,65.0
+4,3893.9395,"BrandsHatch GrandPrix","BrandsHatch","GrandPrix","Brands_Hatch","GrandPrix",30.0,75.0
+5,1932.8221,"BrandsHatch Indy","BrandsHatch","Indy","Brands_Hatch","Indy",30.0,35.0
+6,3490.2634,"Cadwell Park","CadwellPark","CadwellPark","Cadwell_Park","Cadwell_Park",30.0,80.0
+7,3484.123,"Campo Grande","CampoGrande","CampoGrande","Campo_Grande","Campo_Grande",30.0,70.0
+8,3030.514,"Cascavel","Cascavel4","Cascavel5","Cascavel","Cascavel5",20.0,50.0
+9,3650.0244,"Curitiba Internacional","Curitiba","CuritibaInternacional","Curitiba","Curitiba",30.0,65.0
+10,2519.9343,"Curitiba Outer","Curitiba","Curitiba_outer","Curitiba","Curitiba_Outer",30.0,45.0
+11,4391.32,"Curvelo Long","Curvelo","CurveloLong","Curvelo","Curvelo_Long",30.0,90.0
+12,3282.7715,"Curvelo Short","Curvelo","CurveloShort","Curvelo","Curvelo_Short",30.0,65.0
+13,3985.2852,"Donington GP","Donington","Donington_GP","Donington_Park","Donington_GP",30.0,90.0
+14,3182.2563,"Donington National","Donington","Donington_Nat","Donington_Park","Donington_National",30.0,60.0
+15,3843.1777,"Goiania Mixed","Goiania","GoianiaMixed","Goiânia","Goiânia",30.0,70.0
+16,1914.7273,"Goiania Short","Goiania","GoianiaShort","Goiânia","Goiânia_Short",30.0,45.0
+17,2708.4438,"Goiania Outer","Goiania","GoianiaOuter","Goiânia","Goiânia_External",30.0,35.0
+18,3037.4172,"Guapore","Guapore","Guapore","Guapore","Guapore",30.0,65.0
+19,3596.22,"Ibarra","Ibarra4","Ibarra5","Ibarra","Ibarra5",30.0,100.0
+20,4909.0425,"Imola 2018","ImolaAMS2","Imola_GP_2018","Imola","Imola",30.0,90.0
+21,4912.52,"Imola 2001","ImolaAMS2","Imola_GP_2001","Imola","Imola_Historic_2001",30.0,90.0
+22,4965.6704,"Imola 1988","ImolaAMS2","Imola_GP_1988","Imola","Imola_Historic_1988",30.0,90.0
+23,4952.014,"Imola 1972","ImolaAMS2","Imola_GP_1972","Imola","Imola_Historic_1972",30.0,90.0
+24,4294.9478,"Interlagos GP","Interlagos","GP","Interlagos","Grand_Prix",30.0,65.0
+25,7926.649,"Interlagos Historic","Interlagos","Historic","Interlagos","Historic",30.0,140.0
+26,3236.3413,"Interlagos Historic Outer","Interlagos","Historic_Outer","Interlagos","Historic_Outer",30.0,55.0
+27,1122.5166,"Interlagos Kart 1","Interlagos","InterlagosKart1","Interlagos","Grand_Prix",30.0,60.0
+28,1119.8022,"Interlagos Kart 2","Interlagos","InterlagosKart2","Interlagos","Grand_Prix",30.0,60.0
+29,698.64,"Interlagos Kart 3","Interlagos","InterlagosKart3","Interlagos","Grand_Prix",30.0,40.0
+30,5005.332,"Jacarepagua Historic","Jacarepagua","Jacarepagua_Historic","Jacarepaguá","Jacarepaguá_Historic_1988",30.0,85.0
+31,4425.5493,"Jerez Standard","Jerez","Standard","Jerez","Standard",30.0,110.0
+32,5803.093,"Kansai GP","Kansai","Kansai_GP","Kansai","Kansai_GP",30.0,90.0
+33,3465.797,"Kansai West","Kansai","Kansai_West","Kansai","Kansai_West",30.0,60.0
+34,2237.886,"Kansai East","Kansai","Kansai_East","Kansai","Kansai_East",30.0,50.0
+35,5806.669,"Kansai Classic","Kansai","Kansai_Classic","Kansai","Kansai_Classic",30.0,90.0
+36,4555.0654,"Kyalami GP 2019","Kyalami","Kyalami_GP_2019","Kyalami","Kyalami_GP_2019",30.0,95.0
+37,4047.9102,"Kyalami Historic","Kyalami","Historic","Kyalami","Historic",30.0,70.0
+38,3056.2175,"Londrina Short","Londrina","Londrina_short","Londrina","Londrina_Short",30.0,50.0
+39,3168.21,"Londrina Long","Londrina","Londrina_long","Londrina","Londrina_Long",30.0,65.0
+40,1002.8492,"Londrina Kart1","Londrina","LondrinaKart1","Londrina","Londrina_Kart_One",30.0,55.0
+41,864.36163,"Londrina Kart2","Londrina","LondrinaKart2","Londrina","Londrina_Kart_Two",30.0,45.0
+42,4322.4556,"Montreal Modern","Montreal","Modern","Montreal","Modern",30.0,75.0
+43,4386.262,"Montreal Historic","Montreal","Historic","Montreal","Historic",30.0,75.0
+44,1508.039,"Ortona 1","Ortona","Ortona1","Ortona","Ortona_Kart_One",30.0,75.0
+45,1552.6917,"Ortona 2","Ortona","Ortona_2","Ortona","Ortona_Kart_Two",30.0,85.0
+46,1335.2399,"Ortona 3","Ortona","Ortona_3","Ortona","Ortona_Kart_Three",30.0,70.0
+47,962.7363,"Ortona 4","Ortona","Ortona4","Ortona","Ortona_Kart_Four",30.0,50.0
+48,4309.1035,"OultonPark International","OultonPark","OultonPark_International","Oulton_Park","Oulton_Park_International",30.0,90.0
+49,3558.5898,"OultonPark Island","OultonPark","OultonPark_Island","Oulton_Park","Oulton_Park_Island",30.0,75.0
+50,2655.7446,"OultonPark Fosters","OultonPark","OultonPark_Fosters","Oulton_Park","Oulton_Park_Fosters",30.0,50.0
+51,4275.2583,"OultonPark Classic","OultonPark","OultonPark_Classic","Oulton_Park","Oulton_Park_Classic",30.0,90.0
+52,3325.2766,"Santa Cruz","SantaCruz","SantaCruz","Santa_Cruz","Santa_Cruz",30.0,70.0
+53,4788.164,"Snetterton 300","Snetterton","300","Snetterton","300",30.0,100.0
+54,3198.732,"Snetterton 200","Snetterton","200","Snetterton","200",30.0,60.0
+55,1558.7693,"Snetterton 100","Snetterton","100","Snetterton","200",30.0,45.0
+56,4307.278,"Spielberg Modern","Spielberg","Modern","Spielberg","Modern",30.0,65.0
+57,2328.2366,"Spielberg Short","Spielberg","Short","Spielberg","Short",30.0,40.0
+58,5896.2656,"Spielberg 1974","Spielberg","Vintage","Spielberg","Vintage",30.0,100.0
+59,5916.1636,"Spielberg 1977","Spielberg","Historic","Spielberg","Historic",30.0,105.0
+60,3047.519,"Taruma Internacional","Taruma","Internacional","Tarumã","Internacional",30.0,65.0
+61,3074.9531,"Taruma Chicane","Taruma","Chicane","Tarumã","Chicane",30.0,70.0
+62,3327.812,"Velo Citta","VeloCitta","VeloCitta1","Velo_Città","Velo_Città",30.0,80.0
+63,3369.525,"Velo Citta TrackDay","VeloCitta","TrackDay","Velo_Città","TrackDay",30.0,60.0
+64,1721.3219,"Velo Citta ClubDay","VeloCitta","ClubDay","Velo_Città","ClubDay",30.0,55.0
+65,2151.5776,"Velopark 2017","Velopark","Velopark_2017","Velopark","Velopark_2017",30.0,55.0
+66,2019.39,"Velopark 2010","Velopark","Velopark_2010","Velopark","Velopark_2010",30.0,55.0
+67,5261.9146,"Virginia Full","Virginia","Virginia_Full","Virginia","VIRginia_International_Raceway_Full",30.0,90.0
+68,6649.706,"Virginia Grand","Virginia","Virginia_Grand","Virginia","VIRginia_International_Raceway_Grand",30.0,110.0
+69,3667.2732,"Virginia North","Virginia","Virginia_North","Virginia","VIRginia_International_Raceway_North",30.0,65.0
+70,2605.0242,"Virginia South","Virginia","Virginia_South","Virginia","VIRginia_International_Raceway_South",30.0,55.0
+71,1570.9509,"Virginia Patriot","Virginia","Virginia_Patriot","Virginia","VIRginia_International_Raceway_Patriot",30.0,40.0
+72,4428.952,"Jerez Chicane","Jerez","Chicane","Jerez","Chicane",30.0,110.0
+73,5498.0415,"Brasilia Full","Brasilia","Full","Brasília","Full",30.0,80.0
+74,2912.9448,"Brasilia Outer","Brasilia","Outer","Brasília","Outer",30.0,65.0
+75,6205.467,"Bathurst 2020","Bathurst","Bathurst_2020","Bathurst","Bathurst_2020",30.0,90.0
+76,4180.5,"Cascais GP","Cascais","GP","Cascais","Grand_Prix",30.0,90.0
+77,957.869,"Granja Viana Copa Sao Paulo","Granja_Viana","CopaSaoPauloStage2","Granja_Viana","CopaSaoPauloStage2",30.0,90.0
+78,994.1816,"Granja Viana Kart 101","Granja_Viana","GranjaVianaKart101","Granja_Viana","GranjaVianaKart101",30.0,90.0
+79,967.08905,"Granja Viana Kart 102","Granja_Viana","GranjaVianaKart102","Granja_Viana","GranjaVianaKart102",30.0,90.0
+80,788.9625,"Granja Viana Kart 121","Granja_Viana","GranjaVianaKart121","Granja_Viana","GranjaVianaKart121",30.0,90.0
+###################################################
+## Tracks added after v1.0 release
+###################################################

@@ -1,0 +1,5 @@
+Linux users  please untar the linux.gz  file to this directory, so that the bash scripts to start the tool work.
+
+These files contain the JRE binaries needed to run the Telemetry tool.
+
+Mac users, download the JRE 8 with JavaFx from 	https://www.azul.com/downloads/zulu/zulufx/ and unzip the contents to the bin directory.

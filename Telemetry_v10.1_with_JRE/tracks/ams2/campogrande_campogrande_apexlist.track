@@ -1,0 +1,14 @@
+#
+# This is an apex list file
+# Ut defines apex point for each turn of
+# lap. The values are fractions of the lap,
+# 25% of lap is 0.25
+# format is: #turn,dist
+1,0.0992438563327032
+2,0.187387583298851
+3,0.24210948166980872
+4,0.3984962406015037
+5,0.7024119391367276
+6,0.8129273305876781
+7,0.8574213909325686
+8,0.8931716559568665
